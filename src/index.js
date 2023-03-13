@@ -2,15 +2,16 @@ import React from 'react';
 import ReactDom from 'react-dom/client';
 import './style.css';
 
-function Header() {
+/*function Header() {
   const clock = Date().toLocaleString();
   return <h1 className="orange">Hello {clock} </h1>;
-}
+}*/
 
 function Page() {
+  const clock = Date().toLocaleString();
   return (
     <>
-      <Header />
+      <h1>Hello {clock} </h1>
       <p>Hey</p>
       <p>Hi</p>
     </>
