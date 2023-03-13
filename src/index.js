@@ -12,9 +12,10 @@ function Header(props) {
 }
 
 function Page() {
+  const name = 'John';
   return (
     <>
-      <Header name="John" />
+      <Header name={} />
       <p>Hey</p>
       <p>Hi</p>
     </>
