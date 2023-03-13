@@ -11,7 +11,7 @@ function Page() {
   const clock = Date().toLocaleString();
   return (
     <>
-      <h1>Hello {clock} </h1>
+      <h1 className="orange">Hello {clock} </h1>
       <p>Hey</p>
       <p>Hi</p>
     </>
