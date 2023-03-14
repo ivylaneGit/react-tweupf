@@ -1,5 +1,6 @@
 import React from 'react';
-import { Header } from './Header' 
+import { Header } from './Header';
+import Counter from './Counter';
 
 export default function() {
   const name = 'John';
@@ -8,6 +9,7 @@ export default function() {
       <Header name={} />
       <p>Hey</p>
       <p>Hi</p>
+      <Counter />
     </>
   );
 }
